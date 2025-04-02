@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.header { 
+    display: flex 1 1 auto;
+    background: #116CC8;
+   
+}
+.left {
+    flex: 1;
+    background: #616161;
+}
+.right { 
+    flex: 3;
+    background: #616161;
+}
+.container {
+    padding: 8px;
+}
+
+.column {
+    min-height: 160px;
+}

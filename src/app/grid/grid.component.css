@@ -1,0 +1,34 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 25% auto;
+    grid-template-areas: 
+        "header header"
+        "left right";
+    gap: 8px; /* Optional: Adds spacing between grid items */
+    color: white;
+}
+
+.header {
+    grid-area: header;
+    background: #116CC8;
+    color: white;
+}
+
+.left {
+    grid-area: left;
+    background: #616161;
+}
+
+.right {
+    grid-area: right;
+    background: #616161;
+}
+
+.container {
+    padding: 8px;
+}
+
+.column {
+    min-height: 160px;
+}
